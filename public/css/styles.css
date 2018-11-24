@@ -1,0 +1,294 @@
+@media (min-width: 768px) {
+  .nav-hidden {
+    display: none;
+  }
+  .container {
+    max-width: 760px;
+  }
+}
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 5rem 5rem 5rem 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-hidden {
+    display: inline;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    padding-top: 70px;
+  }
+  .jumbotron {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .banner {
+    margin-top: 0rem !important;
+  }
+}
+.row > .column {
+  padding: 0 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+div.column img.hover-shadow {
+  width: 100%;
+}
+div.column img.demo,
+div.column img.demo.active {
+  width: 100%;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 55px;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -6rem;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+img.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+img.hover-shadow {
+  transition: 0.3s;
+}
+.hover-shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.19);
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+header {
+  color: #000000;
+  font-size: 1rem;
+}
+.banner {
+  margin-top: 3.4rem;
+}
+.navbar {
+  border: none;
+  border-radius: 0px;
+}
+.navbar-default {
+  background-color: #94a0b8;
+}
+.navbar-dark .navbar-brand {
+  color: blue;
+}
+.bg-dark {
+  background-color: #94a0b8 !important;
+}
+.content {
+  flex: 1 0 auto;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.jumbotron {
+  background-color: white;
+  margin-bottom: 0rem;
+}
+.jumbotron p {
+  text-align: center;
+  font-size: larger;
+}
+img.resize {
+  max-width: 50%;
+}
+.fa {
+  padding: 5px;
+  font-size: 25px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.w-100 {
+  width: 25rem !important;
+}
+.btn-primary {
+  background-color: white;
+  border-radius: 0px;
+  border-color: white;
+}
+.btn-sm {
+  margin: 1rem 0px 1rem 0px;
+  min-width: 6.3rem;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  border-radius: 0px;
+  background-color: black;
+  border-color: white;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-radius: 0px;
+}
+.footer {
+  flex-shrink: 0;
+  background-color: #94a0b8;
+  text-align: center;
+}
+p {
+  margin-bottom: 1rem;
+  margin-left: 0px;
+  font-size: 1rem;
+}
+footer {
+  flex-shrink: 0;
+  background-color: #000000;
+}
+a:link {
+  color: white;
+}
+/* unvisited link */
+a:visited {
+  color: white;
+}
+/* visited link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+/* mouse over link */
+a:active {
+  color: #0000FF;
+}
+.list-group-item {
+  background-color: gray;
+}
+.list-group-item:last-child {
+  margin-bottom: 1rem;
+}
+ul.list-group {
+  margin-bottom: 1rem;
+}
+ul.list-group a.list-group-item:link,
+ul.list-group a.list-group-item:visited {
+  color: black;
+}
+ul.list-group a.list-group-item:hover,
+ul.list-group a.list-group-item:active,
+ul.list-group a.list-group-item:focus {
+  color: white;
+}
+li {
+  display: inline;
+}

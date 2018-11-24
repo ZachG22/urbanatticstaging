@@ -1,0 +1,42 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../partials/head %>
+
+<!-- header -->
+<% include ../partials/header %>
+
+<main>
+    <div class="container">
+    <div class="banner">
+    	<img class="img-fluid mx-auto d-block" src="https://s3.us-east-2.amazonaws.com/urbanatticstaging/images/houses/fairwoodcourt/FCfireplace2trim.jpeg" alt="Page banner image">
+    </div>
+    <div class="row">
+        <div class="col-md-6 order-2 order-md-1">
+            <div class="jumbotron">
+                <h1>Urban Attic Staging</h1>
+                <p>Professional staging service</p>
+            </div>
+            <div class="container-fluid">
+                <div class="billboard">
+                    <div class="row">
+                        <p>See some staging!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 order-1 order-md-2">
+            <h2>Design</h2>
+        </div>
+    </div>
+    <!-- IMAGES -->
+	<% include ../partials/lightbox/homepage %>
+    </div>
+</main>
+
+<!-- footer -->
+<% include ../partials/footer %>
+
+</html>

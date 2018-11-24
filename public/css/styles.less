@@ -1,0 +1,167 @@
+// Colors file
+@import "colors.less";
+@import "media.less";
+@import "lightbox.less";
+
+html, body {
+        height: 100%;
+}
+body {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+
+}
+h1 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 3rem;
+}
+h2 {
+        font-size: 2rem;
+}
+
+header {
+        color: #000000;
+        font-size :1rem;
+}
+
+.banner {
+	margin-top: 3.4rem;
+}
+
+.navbar {
+        border: none;
+        border-radius: 0px;
+}
+.navbar-default {
+
+        background-color: @navbar-background;
+
+}
+
+.navbar-dark .navbar-brand {
+        color: blue;
+}
+
+.bg-dark {
+        background-color: @navbar-background !important;
+}
+
+.content {
+        flex: 1 0 auto;
+
+}
+
+.row {
+        margin-right: 0px;
+        margin-left: 0px;
+}
+
+.jumbotron {
+        background-color: white;
+        margin-bottom: 0rem;
+        p {
+                text-align: center;
+                font-size: larger;
+        }
+}
+
+img.resize {
+        max-width: 50%;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.w-100 {
+	width: 25rem !important;
+}
+
+// Button Styles
+.btn-primary {
+        background-color: white;
+        border-radius: 0px;
+        border-color: white;
+}
+
+.btn-sm {
+        margin: 1rem 0px 1rem 0px;
+        min-width: 6.3rem;
+}
+
+.btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+        border-radius: 0px;
+        background-color: black;
+        border-color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+        color: white;
+        background-color: black;
+        border-color: black;
+        border-radius: 0px;
+}
+
+.footer {
+        flex-shrink: 0;
+        background-color: @navbar-background;
+	text-align: center;
+}
+
+p {
+        margin-bottom: 1rem;
+        margin-left: 0px;
+        font-size: 1rem;
+}
+
+footer {
+	flex-shrink: 0;
+	background-color: #000000;
+}
+
+a:link {color:white;}    /* unvisited link */
+a:visited {color:white;} /* visited link */
+a:hover {
+	color:black;
+	text-decoration: none;
+}
+     	/* mouse over link */
+a:active {color:#0000FF;}
+
+.list-group-item {
+        background-color: gray;
+}
+
+.list-group-item:last-child {
+        margin-bottom: 1rem;
+}
+
+ul.list-group {
+        margin-bottom: 1rem;
+
+        a.list-group-item:link, a.list-group-item:visited {
+                color: black;
+        }
+        a.list-group-item:hover, a.list-group-item:active, a.list-group-item:focus {
+                color: white;
+        }
+}
+
+
+
+li {
+        display:inline;
+}

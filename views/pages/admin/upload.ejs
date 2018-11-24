@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../../partials/head %>
+
+<!-- Header -->
+<% include ../../partials/header %>
+
+<main>
+<div class="container">
+<div class="row">
+    <div>
+        <div class="jumbotron">
+            <h1>Image Upload</h1>
+            <p>Upload a new house image</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+        <form method='post' action='/upload' enctype="multipart/form-data">
+	<input type="text" name="houseName" placeholder="Enter house name here">
+        <input type='file' name='fileUploaded' accept=".pdf, .jpg, .jpeg, .png, application/pdf" required>
+        <input type='submit' value="Upload">
+        </form>
+</div>
+</div>
+</main>
+
+<!-- Footer -->
+<% include ../../partials/footer %>
+
+</html>
